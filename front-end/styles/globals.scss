@@ -1,0 +1,59 @@
+//$backWhite: #fff;   // 白色背景
+//$solidBorder: 1px solid #eee;  // 实线边框
+@import "variable";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f6f6f6!important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.comm-main{
+  margin-top: .5rem;
+  .comm-left{
+    background-color: $backWhite;
+    padding:.3rem;
+    border-radius: .3rem;
+    border-bottom: $solidBorder;
+  }
+  .comm-right{
+    background-color: $backWhite;
+    margin-left: .5rem;
+    padding:.3rem;
+    border-radius: .3rem;
+    border-bottom: $solidBorder;
+  }
+}
+
+//.ant-menu-horizontal{
+//  line-height: 2.8rem;
+//  .ant-menu-item{
+//    font-size:1rem !important;
+//    padding-left:1rem;
+//    padding-right:1rem;
+//  }
+//}
+
+
+//:global {
+//  .ant-meu{
+//    line-height: 2.8rem;
+//  }
+//  .ant-menu-item{
+//    font-size:1rem;
+//    padding-left:1rem;
+//    padding-right:1rem;
+//  }
+//}
+
