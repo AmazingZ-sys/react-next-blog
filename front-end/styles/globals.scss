@@ -19,31 +19,40 @@ a {
   box-sizing: border-box;
 }
 
-.comm-main{
-  margin-top: .5rem;
-  .comm-left{
+.comm_main{
+  margin-top: 3.7rem;
+  .comm_left{
     background-color: $backWhite;
     padding:.3rem;
-    border-radius: .3rem;
+    border-radius: $borderRadius;
     border-bottom: $solidBorder;
   }
-  .comm-right{
+  .comm_right{
     background-color: $backWhite;
     margin-left: .5rem;
     padding:.3rem;
-    border-radius: .3rem;
+    border-radius: $borderRadius;
     border-bottom: $solidBorder;
   }
 }
 
-//.ant-menu-horizontal{
-//  line-height: 2.8rem;
-//  .ant-menu-item{
-//    font-size:1rem !important;
-//    padding-left:1rem;
-//    padding-right:1rem;
-//  }
-//}
+.comm_box{
+  background-color: $backWhite;
+  margin-left: .5rem;
+  padding:.3rem;
+  border-radius: $borderRadius;
+  border:$solidBorder;
+}
+
+.ant-menu-horizontal{
+  line-height: 2.8rem;
+  .ant-menu-item{
+    color: $subColor !important;
+    //font-size:1rem !important;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+}
 
 
 //:global {
